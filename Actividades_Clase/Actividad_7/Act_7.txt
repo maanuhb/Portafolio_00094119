@@ -1,3 +1,6 @@
+// EVARIST ALEXANDER ARDON AREVALO 00361518
+//MANUEL DE JESUS HERNANDEZ BENITEZ 00094119
+
 algoritmo 1:  obtener el segundo elemento de una pila, de arriba hacia abajo, quitando los dos primeros elementos.
 
 valid=true
