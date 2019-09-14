@@ -1,0 +1,32 @@
+algoritmo 1:  obtener el segundo elemento de una pila, de arriba hacia abajo, quitando los dos primeros elementos.
+
+valid=true
+s= initialize
+push(s...)
+
+if(empty(s))
+	return -1
+pop(s)
+if(empty(s))
+	return -1
+	
+i=pop(s)
+
+return i
+
+algoritmo 2:  obtener el segundo elemento de una pila, de arriba hacia abajo, dejando intacta la pila.
+
+valid=true
+s= initialize
+push(s...)
+
+if(empty(s))
+	return -1
+i=pop(s)
+if(empty(s))
+	return -1
+	
+i=pop(s)
+ push(s,i)
+ push(s,,i)
+return i
