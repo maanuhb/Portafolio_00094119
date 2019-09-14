@@ -14,10 +14,10 @@ int main(){
 	   PMatriz[i]= new int[col];
 	
 	PMatriz[0][0]=100;
-	cout<<"\n Direcciones de memoria \n"<<&PMatriz[0][0]<<"\n"<<&PMatriz[2][1]<<"\n"<<&PMatriz[5][1]<<"\n"<<&PMatriz[1][10]<<"\n"<<&PMatriz[2][10]<<"\n"<<&PMatrix[5][3]<<"\n"<<&PMatrix[9][19];
+	cout<<"\n Direcciones de memoria \n"<<&PMatriz[0][0]<<"\n"<<&PMatriz[2][1]<<"\n"<<&PMatriz[5][1]<<"\n"<<&PMatriz[1][10]<<"\n"<<&PMatriz[2][10]<<"\n"<<&PMatriz[5][3]<<"\n"<<&PMatriz[9][19];
 
 //1. Si es valida, la desreferencia	
-	PMatriz[0][0]=*(*PMatrixz;
+	PMatriz[0][0]=*(*PMatriz);
 //Prueba
 	cout<<"\n"<<PMatriz[0][0]<<"\n";
 
